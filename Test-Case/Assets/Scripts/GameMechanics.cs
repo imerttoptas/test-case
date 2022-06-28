@@ -50,7 +50,6 @@ public class GameMechanics : MonoBehaviour
     {
         List<GameObject> neighbourTiles = new List<GameObject>();
         countNeighbours(x, y, neighbourTiles);
-        Debug.Log(neighbourTiles.Count);
 
         if (neighbourTiles.Count == 0)
         {
@@ -105,7 +104,6 @@ public class GameMechanics : MonoBehaviour
                 }
             }
         }
-        Debug.Log("Kontrol edilen grid sayısı : " + a);
     }
 
     private void Cross_Grid_operations(List<GameObject> nTiles)

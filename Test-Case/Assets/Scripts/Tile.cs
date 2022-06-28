@@ -20,7 +20,6 @@ public class Tile : MonoBehaviour
                 x.SetActive(true);
             }
         }
-
     }
     public void crossdisable()
     {

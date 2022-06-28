@@ -164,6 +164,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89232d19d1331474e9bfb89eb0f1cf69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  inputText: {fileID: 0}
 --- !u!1 &207414711
 GameObject:
   m_ObjectHideFlags: 0
@@ -306,7 +307,7 @@ GameObject:
   - component: {fileID: 990159840}
   - component: {fileID: 990159839}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Restart
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -376,7 +377,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 160923861}
-        m_MethodName: ChangeLevel
+        m_MethodName: Restart
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

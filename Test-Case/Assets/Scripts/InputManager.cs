@@ -11,4 +11,5 @@ public class InputManager : MonoBehaviour
     {
         gridsize = (int)Convert.ToInt32(s);
     }
+
 }
